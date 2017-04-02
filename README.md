@@ -14,4 +14,8 @@ application.
 
 ## Docker
 
-Database for developement purposes is ran by a Docker container. More information found under docker folder of this project.
+Database for development purposes is ran by a Docker container. More information can be found under docker folder of this project.
+
+## REST API
+
+Sensors will send data to RESTful API that stores their activity data. API is built on Node Express. More information can be found on the server folder.
