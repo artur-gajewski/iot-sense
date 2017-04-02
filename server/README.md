@@ -5,7 +5,7 @@
 1. Install dependencies - `npm install`
 2. Run - `psql -U postgres -h <DOCKER_HOST_IP> -p 48301 < scripts/create_database.sql`
 3. Run the development server - `npm start`
-4. Open up your browser at http://127.0.0.1:3000
+4. Open up your browser at http://127.0.0.1:3000/api/sensors
 
 #### Entry points
 
