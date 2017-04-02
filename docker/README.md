@@ -21,3 +21,30 @@
 
 * Run `boot2docker ip` and add `BOOT2DOCKERIP dockerhost` to your `/etc/hosts`
 
+
+## Setup database Docker for IOT-Sense
+
+Create new docker container
+
+        $ docker-machine create iot-sense --driver virtualbox
+
+Connect to the container
+
+        $ eval $(docker-machine env iot-sense)
+
+Install PostgreSQL into the container
+
+        $ docker/init.sh
+
+Start the container
+
+        $ docker/start.sh
+
+#### Connect to database
+
+        $ psql -U postgres -h <DOCKER_HOST_IP> -p 48301
+
+#### Stop container and reset database
+
+        $ docker/stop.sh
+
