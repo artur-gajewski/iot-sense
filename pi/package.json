@@ -1,0 +1,23 @@
+{
+  "name": "iot-sense",
+  "version": "1.0.0",
+  "description": "IOT motion detection project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iot",
+    "sense",
+    "raspberry",
+    "pi",
+    "motion",
+    "sensor"
+  ],
+  "author": "Artur Gajewski",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^4.0.0",
+    "onoff": "^1.1.2"
+  }
+}
